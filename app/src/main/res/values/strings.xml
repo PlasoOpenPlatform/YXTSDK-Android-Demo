@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YXT SDK Demo</string>
+    <string name="auth_title">授权配置</string>
+    <string name="auth_section_credential">开放平台凭证</string>
+    <string name="auth_app_id">AppId</string>
+    <string name="auth_sign_key">SignKey</string>
+    <string name="auth_sign_key_note">SignKey 仅用于 Demo 演示。正式环境请在服务端签名，勿将密钥打入客户端包。</string>
+    <string name="auth_section_user">用户</string>
+    <string name="auth_login_name">用户名（loginName）</string>
+    <string name="auth_user_type">用户类型</string>
+    <string name="auth_user_note">调用 OpenAPI /user/getToken，无需密码。</string>
+    <string name="auth_start">登录授权</string>
+    <string name="auth_loading">授权中...</string>
+    <string name="tab_classroom">课堂</string>
+    <string name="tab_homework">巩固</string>
+    <string name="tab_file">资料中心</string>
+    <string name="tab_mine">我的</string>
+    <string name="mine_section">账号信息</string>
+    <string name="mine_login_name">登录名</string>
+    <string name="mine_user_type">用户类型</string>
+    <string name="mine_env">服务器环境</string>
+    <string name="mine_app_id">AppId</string>
+    <string name="mine_expire">Token 过期时间</string>
+    <string name="logout">退出登录</string>
+    <string name="logout_confirm_title">确认退出？</string>
+    <string name="logout_confirm_message">退出后需重新授权登录</string>
+    <string name="cancel">取消</string>
+    <string name="token_invalid">Token 已失效，请重新授权</string>
+</resources>

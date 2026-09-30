@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_classroom"
+        android:icon="@drawable/ic_tab_class"
+        android:title="@string/tab_classroom" />
+    <item
+        android:id="@+id/tab_homework"
+        android:icon="@drawable/ic_tab_homework"
+        android:title="@string/tab_homework" />
+    <item
+        android:id="@+id/tab_file"
+        android:icon="@drawable/ic_tab_file"
+        android:title="@string/tab_file" />
+    <item
+        android:id="@+id/tab_mine"
+        android:icon="@drawable/ic_tab_mine"
+        android:title="@string/tab_mine" />
+</menu>

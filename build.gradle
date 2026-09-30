@@ -1,0 +1,18 @@
+buildscript {
+    repositories {
+        maven { url "https://mirrors.cloud.tencent.com/repo/" }
+        maven { url "https://maven.aliyun.com/nexus/content/groups/public/" }
+        maven { url "https://maven.aliyun.com/nexus/content/repositories/jcenter" }
+        maven { url "https://maven.aliyun.com/nexus/content/repositories/releases/" }
+        maven { url "https://nexus.plaso.cn/repository/maven-public/" }
+        maven { url "https://maven.aliyun.com/repository/google" }
+        maven { url "https://developer.huawei.com/repo/" }
+        maven { url "https://jitpack.io" }
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.4.2"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.24"
+    }
+}
